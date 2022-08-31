@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Condensed:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.box{
+    background-color: rgb(242, 242, 250);
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 660px;
+    padding: 40px;
+    margin: 10px auto 0 auto;
+    border-radius: 25px;
+}
+.grupo-box{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.grupo-box h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.grupo-box p a{
+    font-size: 23px;
+    margin-top: 15px;
+    color: rgb(248, 155, 25);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.w50{
+    margin-top: 20px;
+    display: inline-flex;
+  
+}
+
+.input-grupo{
+    margin: 15px 0;
+    text-align: justify;
+    display: grid;
+}
+
+.input-grupo label{
+    display: inline-block;
+    color: rgb(131, 126, 126);
+}
+
+.input-grupo input{
+    width: 330px;
+    height: 47px;
+    border-radius: 25px;
+    padding-left: 10px;
+    border-color: rgb(248, 155, 25);
+}
+
+.grupo-botao button{
+    margin-top: 10px;
+    width: 290px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: rgb(248, 155, 25);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.grupo-botao button:hover{
+    background-color: rgb(195, 118, 9);
+}
+
+.grupo-botao button a{
+    font-size: 27px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
